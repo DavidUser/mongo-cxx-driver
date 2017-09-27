@@ -14,7 +14,7 @@ cmake \
 make
 sudo make install
 
-cd /usr/include
-ln -s /usr/local/include/bsoncxx/v_noabi/bsoncxx
-ln -s /usr/local/include/mongocxx/v_noabi/mongocxx
+sudo cd /usr/include
+sudo ln -sf /usr/local/include/bsoncxx/v_noabi/bsoncxx
+sudo ln -sf /usr/local/include/mongocxx/v_noabi/mongocxx
 
